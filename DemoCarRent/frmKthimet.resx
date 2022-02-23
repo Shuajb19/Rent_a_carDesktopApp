@@ -1,0 +1,960 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;lblCmimi.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblDitetEShfrytezimit.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblCmimiTotal_Rezultati.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblData_Dorezimit.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;lblRent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="txtVetura_Id.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 326</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnEdit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="&gt;&gt;txtReturn_Id.Name" xml:space="preserve">
+    <value>txtReturn_Id</value>
+  </data>
+  <data name="lblReturn_Id.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="&gt;&gt;dtpData_Huazimit.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;lblRent.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="lblDataHuazimit.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="&gt;&gt;txtVetura_Id.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txtReturn_Id.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 26</value>
+  </data>
+  <data name="&gt;&gt;dtpData_Dorezimit.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnKalkulo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCmimiTotal.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblDataHuazimit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblDitetE_Shfrytezimit_Rezultati.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="&gt;&gt;btnAdd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtKlienti_Id.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;lblDitetEShfrytezimit.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="lblRent.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 48pt</value>
+  </data>
+  <data name="lblDataHuazimit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 20</value>
+  </data>
+  <data name="txtRent_Id.TabIndex" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="&gt;&gt;lblCmimiVetures_Rezultati.Name" xml:space="preserve">
+    <value>lblCmimiVetures_Rezultati</value>
+  </data>
+  <data name="btnClear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 36</value>
+  </data>
+  <data name="txtReturn_Id.Location" type="System.Drawing.Point, System.Drawing">
+    <value>33, 202</value>
+  </data>
+  <data name="lblReturn_Id.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblVetura_Id.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;txtEmriKlientit.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="btnKalkulo.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="btnAdd.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="&gt;&gt;lblEmriKlientit.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="lblEmriKlientit.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCmimi.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 683</value>
+  </data>
+  <data name="&gt;&gt;lblData_Dorezimit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnBack.Name" xml:space="preserve">
+    <value>btnBack</value>
+  </data>
+  <data name="&gt;&gt;txtVetura_Id.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCmimiTotal_Rezultati.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 12pt</value>
+  </data>
+  <data name="lblRent_Id.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 20</value>
+  </data>
+  <data name="&gt;&gt;btnBack.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>frmKthimet</value>
+  </data>
+  <data name="&gt;&gt;dgvKthimet.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnDelete.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;txtEmriKlientit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblData_Dorezimit.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;lblDataHuazimit.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtRent_Id.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnClear.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="lblData_Dorezimit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="&gt;&gt;lblReturn_Id.Name" xml:space="preserve">
+    <value>lblReturn_Id</value>
+  </data>
+  <data name="txtReturn_Id.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnClear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblCmimi.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="&gt;&gt;lblDitetE_Shfrytezimit_Rezultati.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lblCmimi.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="btnDelete.Text" xml:space="preserve">
+    <value>FSHIJ</value>
+  </data>
+  <data name="txtVetura_Id.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="&gt;&gt;txtKlienti_Id.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnEdit.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="&gt;&gt;lblVetura_Id.Name" xml:space="preserve">
+    <value>lblVetura_Id</value>
+  </data>
+  <data name="lblCmimiVetures_Rezultati.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblKlienti_Id.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnAdd.Text" xml:space="preserve">
+    <value>SHTO</value>
+  </data>
+  <data name="lblVetura_Id.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 306</value>
+  </data>
+  <data name="txtEmriKlientit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 450</value>
+  </data>
+  <data name="lblData_Dorezimit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 552</value>
+  </data>
+  <data name="&gt;&gt;btnDelete.Name" xml:space="preserve">
+    <value>btnDelete</value>
+  </data>
+  <data name="dtpData_Huazimit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 509</value>
+  </data>
+  <data name="&gt;&gt;lblData_Dorezimit.Name" xml:space="preserve">
+    <value>lblData_Dorezimit</value>
+  </data>
+  <data name="lblDitetEShfrytezimit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="&gt;&gt;lblRent_Id.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblReturn_Id.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>696, 858</value>
+  </data>
+  <data name="lblCmimiTotal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 743</value>
+  </data>
+  <data name="btnEdit.Text" xml:space="preserve">
+    <value>PERDITESO</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="lblDitetEShfrytezimit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 20</value>
+  </data>
+  <data name="&gt;&gt;btnAdd.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblRent.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblRent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 73</value>
+  </data>
+  <data name="lblVetura_Id.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 20</value>
+  </data>
+  <data name="lblDitetE_Shfrytezimit_Rezultati.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnBack.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 36</value>
+  </data>
+  <data name="lblCmimiTotal.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="lblCmimiTotal.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnAdd.Name" xml:space="preserve">
+    <value>btnAdd</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmKthimet</value>
+  </data>
+  <data name="dtpData_Huazimit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 26</value>
+  </data>
+  <data name="&gt;&gt;dtpData_Dorezimit.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="dgvHuazimet.TabIndex" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="dtpData_Huazimit.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="&gt;&gt;lblDataHuazimit.Name" xml:space="preserve">
+    <value>lblDataHuazimit</value>
+  </data>
+  <data name="&gt;&gt;lblRent_Id.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblKlienti_Id.Name" xml:space="preserve">
+    <value>lblKlienti_Id</value>
+  </data>
+  <data name="&gt;&gt;lblRent_Id.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-322, 2</value>
+  </data>
+  <data name="lblCmimiVetures_Rezultati.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="dtpData_Dorezimit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 573</value>
+  </data>
+  <data name="&gt;&gt;lblDitetEShfrytezimit.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblEmriKlientit.Name" xml:space="preserve">
+    <value>lblEmriKlientit</value>
+  </data>
+  <data name="lblRent.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lblRent_Id.Text" xml:space="preserve">
+    <value>Huazimi_Id</value>
+  </data>
+  <data name="lblDataHuazimit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 488</value>
+  </data>
+  <data name="lblEmriKlientit.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;txtKlienti_Id.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblCmimiVetures_Rezultati.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dtpData_Dorezimit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 26</value>
+  </data>
+  <data name="&gt;&gt;btnEdit.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="btnKalkulo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 35</value>
+  </data>
+  <data name="&gt;&gt;btnKalkulo.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;dtpData_Huazimit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblReturn_Id.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 20</value>
+  </data>
+  <data name="lblCmimiTotal_Rezultati.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="&gt;&gt;dgvKthimet.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblKlienti_Id.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnBack.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 858</value>
+  </data>
+  <data name="btnBack.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="&gt;&gt;lblRent.Name" xml:space="preserve">
+    <value>lblRent</value>
+  </data>
+  <data name="lblCmimiTotal_Rezultati.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnDelete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblDitetEShfrytezimit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 623</value>
+  </data>
+  <data name="btnKalkulo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 780</value>
+  </data>
+  <data name="&gt;&gt;txtReturn_Id.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblRent_Id.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 243</value>
+  </data>
+  <data name="txtReturn_Id.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="txtVetura_Id.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 26</value>
+  </data>
+  <data name="txtReturn_Id.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblDitetE_Shfrytezimit_Rezultati.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="txtEmriKlientit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 26</value>
+  </data>
+  <data name="&gt;&gt;btnAdd.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="dgvHuazimet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>887, 250</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtEmriKlientit.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblEmriKlientit.Text" xml:space="preserve">
+    <value>Emri i klientit</value>
+  </data>
+  <data name="&gt;&gt;txtVetura_Id.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="txtKlienti_Id.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 390</value>
+  </data>
+  <data name="lblDitetEShfrytezimit.Text" xml:space="preserve">
+    <value>Ditet e shfrytezimit</value>
+  </data>
+  <data name="&gt;&gt;dtpData_Huazimit.Name" xml:space="preserve">
+    <value>dtpData_Huazimit</value>
+  </data>
+  <data name="lblData_Dorezimit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 20</value>
+  </data>
+  <data name="&gt;&gt;btnKalkulo.Name" xml:space="preserve">
+    <value>btnKalkulo</value>
+  </data>
+  <data name="&gt;&gt;btnEdit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblVetura_Id.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="&gt;&gt;lblCmimiVetures_Rezultati.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblCmimiTotal_Rezultati.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnDelete.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnAdd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>593, 858</value>
+  </data>
+  <data name="lblVetura_Id.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1840, 132</value>
+  </data>
+  <data name="dtpData_Dorezimit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="&gt;&gt;txtKlienti_Id.Name" xml:space="preserve">
+    <value>txtKlienti_Id</value>
+  </data>
+  <data name="dgvKthimet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>597, 479</value>
+  </data>
+  <data name="btnBack.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="lblCmimiTotal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 20</value>
+  </data>
+  <data name="btnEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 36</value>
+  </data>
+  <data name="txtVetura_Id.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dgvHuazimet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>597, 177</value>
+  </data>
+  <data name="btnDelete.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="&gt;&gt;lblCmimiTotal_Rezultati.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblKlienti_Id.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblEmriKlientit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDataHuazimit.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;lblRent.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblCmimi.Name" xml:space="preserve">
+    <value>lblCmimi</value>
+  </data>
+  <data name="&gt;&gt;dtpData_Dorezimit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblEmriKlientit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 430</value>
+  </data>
+  <data name="lblCmimi.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;txtVetura_Id.Name" xml:space="preserve">
+    <value>txtVetura_Id</value>
+  </data>
+  <data name="&gt;&gt;lblDitetE_Shfrytezimit_Rezultati.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblRent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>931, 22</value>
+  </data>
+  <data name="&gt;&gt;txtReturn_Id.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="lblKlienti_Id.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 367</value>
+  </data>
+  <data name="&gt;&gt;txtKlienti_Id.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="txtVetura_Id.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="lblData_Dorezimit.Text" xml:space="preserve">
+    <value>Data_Dorezimit</value>
+  </data>
+  <data name="lblEmriKlientit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 20</value>
+  </data>
+  <data name="lblKlienti_Id.Text" xml:space="preserve">
+    <value>Klienti_Id</value>
+  </data>
+  <data name="&gt;&gt;txtRent_Id.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblReturn_Id.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblDitetE_Shfrytezimit_Rezultati.Location" type="System.Drawing.Point, System.Drawing">
+    <value>176, 623</value>
+  </data>
+  <data name="&gt;&gt;dgvHuazimet.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblCmimiTotal.Text" xml:space="preserve">
+    <value>Cmimi Total</value>
+  </data>
+  <data name="&gt;&gt;lblVetura_Id.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblRent_Id.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="&gt;&gt;dgvKthimet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dtpData_Dorezimit.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="dgvKthimet.TabIndex" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="lblReturn_Id.Text" xml:space="preserve">
+    <value>Kthimi_Id</value>
+  </data>
+  <data name="&gt;&gt;dgvHuazimet.Name" xml:space="preserve">
+    <value>dgvHuazimet</value>
+  </data>
+  <data name="btnAdd.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="lblCmimiTotal.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="&gt;&gt;txtRent_Id.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblReturn_Id.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 181</value>
+  </data>
+  <data name="lblData_Dorezimit.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblKlienti_Id.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;dgvKthimet.Name" xml:space="preserve">
+    <value>dgvKthimet</value>
+  </data>
+  <data name="lblCmimiVetures_Rezultati.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblEmriKlientit.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblData_Dorezimit.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnEdit.Name" xml:space="preserve">
+    <value>btnEdit</value>
+  </data>
+  <data name="&gt;&gt;lblCmimiTotal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnDelete.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="txtRent_Id.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 26</value>
+  </data>
+  <data name="lblCmimiTotal_Rezultati.Location" type="System.Drawing.Point, System.Drawing">
+    <value>176, 743</value>
+  </data>
+  <data name="txtKlienti_Id.Size" type="System.Drawing.Size, System.Drawing">
+    <value>251, 26</value>
+  </data>
+  <data name="btnBack.Text" xml:space="preserve">
+    <value>Kthehu</value>
+  </data>
+  <data name="&gt;&gt;lblCmimiVetures_Rezultati.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="btnClear.TabIndex" type="System.Int32, mscorlib">
+    <value>63</value>
+  </data>
+  <data name="lblDitetE_Shfrytezimit_Rezultati.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 20</value>
+  </data>
+  <data name="lblDataHuazimit.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblCmimiTotal.Name" xml:space="preserve">
+    <value>lblCmimiTotal</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 20</value>
+  </data>
+  <data name="&gt;&gt;lblDitetE_Shfrytezimit_Rezultati.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dtpData_Dorezimit.Name" xml:space="preserve">
+    <value>dtpData_Dorezimit</value>
+  </data>
+  <data name="btnDelete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 36</value>
+  </data>
+  <data name="&gt;&gt;lblDitetEShfrytezimit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnClear.Text" xml:space="preserve">
+    <value>Pastro</value>
+  </data>
+  <data name="lblReturn_Id.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;lblRent_Id.Name" xml:space="preserve">
+    <value>lblRent_Id</value>
+  </data>
+  <data name="lblCmimiTotal_Rezultati.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 20</value>
+  </data>
+  <data name="lblCmimi.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 20</value>
+  </data>
+  <data name="panel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="&gt;&gt;lblCmimi.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;lblReturn_Id.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;lblCmimiTotal.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="btnAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 36</value>
+  </data>
+  <data name="&gt;&gt;txtEmriKlientit.Name" xml:space="preserve">
+    <value>txtEmriKlientit</value>
+  </data>
+  <data name="&gt;&gt;btnBack.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblDataHuazimit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lblCmimi.Text" xml:space="preserve">
+    <value>Cmimi i vetures</value>
+  </data>
+  <data name="&gt;&gt;btnKalkulo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnDelete.Location" type="System.Drawing.Point, System.Drawing">
+    <value>799, 858</value>
+  </data>
+  <data name="lblRent.Text" xml:space="preserve">
+    <value>Kthimet</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1518, 908</value>
+  </data>
+  <data name="&gt;&gt;lblDitetE_Shfrytezimit_Rezultati.Name" xml:space="preserve">
+    <value>lblDitetE_Shfrytezimit_Rezultati</value>
+  </data>
+  <data name="lblKlienti_Id.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 20</value>
+  </data>
+  <data name="txtKlienti_Id.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="txtEmriKlientit.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;lblDitetEShfrytezimit.Name" xml:space="preserve">
+    <value>lblDitetEShfrytezimit</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lblEmriKlientit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="txtRent_Id.Location" type="System.Drawing.Point, System.Drawing">
+    <value>33, 266</value>
+  </data>
+  <data name="dgvKthimet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>887, 260</value>
+  </data>
+  <data name="btnClear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 858</value>
+  </data>
+  <data name="lblKlienti_Id.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="lblCmimiVetures_Rezultati.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 20</value>
+  </data>
+  <data name="&gt;&gt;dtpData_Huazimit.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblRent_Id.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblVetura_Id.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;dgvHuazimet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblVetura_Id.Text" xml:space="preserve">
+    <value>Vetura_Id</value>
+  </data>
+  <data name="lblDitetEShfrytezimit.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;btnClear.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dtpData_Huazimit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="lblDataHuazimit.Text" xml:space="preserve">
+    <value>Data_Huazimit</value>
+  </data>
+  <data name="&gt;&gt;btnEdit.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dgvHuazimet.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnKalkulo.Text" xml:space="preserve">
+    <value>Kalkulo</value>
+  </data>
+  <data name="&gt;&gt;txtReturn_Id.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnClear.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblRent.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="txtRent_Id.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnBack.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txtEmriKlientit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="&gt;&gt;btnClear.Name" xml:space="preserve">
+    <value>btnClear</value>
+  </data>
+  <data name="&gt;&gt;lblCmimiTotal_Rezultati.Name" xml:space="preserve">
+    <value>lblCmimiTotal_Rezultati</value>
+  </data>
+  <data name="&gt;&gt;lblVetura_Id.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtRent_Id.Name" xml:space="preserve">
+    <value>txtRent_Id</value>
+  </data>
+  <data name="lblCmimiVetures_Rezultati.Location" type="System.Drawing.Point, System.Drawing">
+    <value>176, 683</value>
+  </data>
+  <data name="&gt;&gt;lblCmimi.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>en</value>
+  </metadata>
+</root>
