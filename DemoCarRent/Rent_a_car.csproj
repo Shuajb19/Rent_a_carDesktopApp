@@ -94,12 +94,6 @@
     <Compile Include="frmMain.Designer.cs">
       <DependentUpon>frmMain.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmRaport.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmRaport.Designer.cs">
-      <DependentUpon>frmRaport.cs</DependentUpon>
-    </Compile>
     <Compile Include="frmVeturat.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -143,9 +137,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmMain.sq-XK.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmRaport.resx">
-      <DependentUpon>frmRaport.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmVeturat.en.resx">
       <DependentUpon>frmVeturat.cs</DependentUpon>
